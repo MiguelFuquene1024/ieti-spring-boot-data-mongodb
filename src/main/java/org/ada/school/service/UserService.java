@@ -15,5 +15,5 @@ public interface UserService
 
     boolean deleteById( String id );
 
-    User update( UserDto userDto, String id );
+    User update(UserDto userDto, String id );
 }
