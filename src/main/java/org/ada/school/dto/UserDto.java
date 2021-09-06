@@ -1,5 +1,7 @@
 package org.ada.school.dto;
 
+import java.util.Date;
+
 public class UserDto
 {
     String name;
@@ -7,6 +9,8 @@ public class UserDto
     String email;
 
     String lastName;
+
+    Date createdAt;
 
     public UserDto()
     {
@@ -26,4 +30,6 @@ public class UserDto
     {
         return lastName;
     }
+
+    public Date getCreatedAt() { return createdAt; }
 }
